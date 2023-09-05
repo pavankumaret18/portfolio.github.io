@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="../port.css">
+    <style>
+        body{
+    color: #EFEFEF;
+    background-image: linear-gradient(
+        -225deg,
+        rgb(52, 52, 52) 0%,
+        rgb(90, 90, 91) 25%,
+        gray 50%,
+        rgb(178, 178, 179) 75%,
+        rgb(232, 232, 234) 100%
+    );
+    background-size: 400% 400%; /* Increase the background size for a smoother animation */
+    animation: backgroundAnimation 5s linear infinite; /* Adjust the animation duration and timing function */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%; /* Start from the left */
+    }
+    50% {
+        background-position: 100% 50%; /* Move to the right */
+    }
+    100% {
+        background-position: 0% 50%; /* Move to the right */
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <h1><u>PORTFOLIO</u></h1>
+        </div>
+        <div class="Menu">
+            <button class="navButtons">Intro</button>
+            <button class="navButtons">About Me</button>
+            <button class="navButtons">Education</button>
+            <button class="navButtons">Projects</button>
+            <button class="navButtons">Skills</button>
+        </div>
+    </nav>
+
+    <div class="education">
+        <section>
+            <fieldset>
+                <legend>SSLC/10th</legend>
+                <label>Institute Name: BGS Public School</label>
+                <label>Region: Bengaluru</label>
+                <label>Board: Central Board Of Secondary Education</label>
+                <label>Year Of Passing: 2018</label>
+                <label>Percentage: 80.6%</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>High School/12th</legend>
+                <label>Institute Name: Sadhana PU College</label>
+                <label>Region: Bengaluru</label>
+                <label>Board: Karnataka Pre University</label>
+                <label>Year Of Passing: 2020</label>
+                <label>Percentage: 85%</label>
+            </fieldset> 
+
+            <fieldset>
+                <legend>Degree</legend>
+                <label>Institute Name: JSS Academy Of Technical Education</label>
+                <label>University: Visvesvaraya Technological University</label>
+                <label>Region: Bengaluru</label>
+                <label>Year Of Passing: 2024</label>
+                <label>CGPA: 8.66</label>
+            </fieldset> 
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/popmotion@8.5.5/dist/popmotion.global.min.js"></script>
+    <script src="../port.js"></script>
+</body>
+</html>
